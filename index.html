@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="shortcut icon" id="favicon" type="image/png" href="images/PP2.png">
+      <meta name="author" content="Juan Carlos Collins">
+      <title>Project Petals Map</title>
+      <!--[if lte IE 8]>
+      <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
+      <![endif]-->
+      <!-- Mapbox css, will not work if concatenated with main.css -->
+      <link href='https://www.mapbox.com/base/latest/base.css' rel='stylesheet' />
+      <!-- Script/css -->
+      <script type="text/javascript" src="main.js"></script>
+      <link rel="stylesheet" href="main.css">
+
+
+   </head>
+   <body onload="myFunction()">
+      <div id='legend-wrapper'>
+         <hgroup id="project-title">
+            <h1>Project Petals</h1>
+            <h4>Environmental and Community Projects</h4>
+            <div class='pill'>
+               <a href='http://www.projectpetals.org/projects-in-your-area/' class='button stroke dark icon plus'></a>
+               <a href='https://www.projectpetals.org/' class='button stroke dark icon home'></a>
+            </div>
+         </hgroup>
+         <hgroup id="category-title">
+            <h2>Projects:</h2>
+         </hgroup>
+      </div>
+      <div id="map"></div>
+      <div class="loader">Loading...</div>
+   </body>
+</html>
