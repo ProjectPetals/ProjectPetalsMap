@@ -4513,6 +4513,7 @@ img.inline, .inline           { display:inline-block; }
   --background-color: #FFF;
   --main-color: #89c63b;
   --accent-color: #005bab;
+   --secondary-color: #fbcc02;
   // Sizing/* --base: 16px;
   --tiny-spacing: var(--base * 0.25);
   --small-spacing: var(--base * 0.5);
@@ -4599,11 +4600,11 @@ body {
   /*height: auto;
   */
   top: 59px;
-  /*border-top: 15px solid #fbcc02;
+  /*border-top: 15px solid var(--secondary-color);
   */
   margin-left: -282px;
   overflow-y: auto;
-  background: rgba(255, 255, 255, 1);
+  background: var(--secondary-color);
   font-size: .75em;
 }
 .pill .button .stroke .icon .home {
@@ -4621,11 +4622,11 @@ body {
   max-height: 300px;
   width: 275px;
   top: 245px;
-  /*border-top: 15px solid #fbcc02;
+  /*border-top: 15px solid var(--secondary-color);
   */
   margin-left: -282px;
   overflow-y: auto;
-  background: white;
+  background: var(--secondary-color);
   padding-left: 10px;
 }
 #project-title, #category-title > h1, h2 {
@@ -4754,8 +4755,8 @@ figcaption {
     left: 0;
     padding: 1rem;
     padding-top: 0;
-    /*background-color: var(--main-color);
-    */
+    background-color: var(--secondary-color);
+    
     margin-left: 0px;
     font-size: 0.55em;
   }
@@ -4765,6 +4766,8 @@ figcaption {
     height: 101px;
     position: fixed;
     margin-left: -300px;
+    background-color: var(--secondary-color);
+
   }
   #project-title h1, h2 {
     font-size: 1.75em;

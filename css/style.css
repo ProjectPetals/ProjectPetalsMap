@@ -2,7 +2,9 @@
   // Color Scheme
   --background-color: #FFF;
   --main-color: #89c63b;
+  --secondary-color: #fbcc02;
   --accent-color: #005bab;
+
   // Sizing/* --base: 16px;
   --tiny-spacing: var(--base * 0.25);
   --small-spacing: var(--base * 0.5);
@@ -90,7 +92,7 @@ body {
   */
   margin-left: -282px;
   overflow-y: auto;
-  background: rgba(255, 255, 255, 1);
+  background: #fbcc02;
   font-size: .75em;
 }
 .pill .button .stroke .icon .home {
@@ -112,7 +114,7 @@ body {
   */
   margin-left: -282px;
   overflow-y: auto;
-  background: white;
+  background: var(--secondary-color);
   padding-left: 10px;
 }
 #project-title, #category-title > h1, h2 {
